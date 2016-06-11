@@ -1,0 +1,87 @@
+h2 {
+	font-family:impact;
+	color:#990099;
+	font-size:30px;
+	text-align:center;
+}
+
+.Ezio{ 
+border:2px solid red;
+background-color: #33ff99;
+}
+
+
+
+.Ezio h5 {
+	border:2px solid #ff9933;
+	font-size:30px;
+	font-family: fantasy;
+	width:260px;
+	height:35px;
+}
+
+
+.Ezio p {
+      font-family:cursive;
+      font-size: 19px;
+      color:#ff6666;
+}
+
+
+.Geralt {
+border:2px solid red;
+background-color: #33ff99;
+}
+
+
+
+
+.Geralt h5 {
+	border:2px solid #ff9933;
+	font-size:30px;
+	font-family: fantasy;
+	width:300px;
+	height:35px;
+	text-align:center;}
+
+.Geralt p {
+	font-family:cursive;
+      font-size: 19px;
+      color:#ff6666;
+}
+
+
+.Uncharted {
+border:2px solid red;
+background-color: #33ff99;
+}
+
+.Uncharted h5 {
+	border:2px solid #ff9933;
+	font-size:30px;
+	font-family: fantasy;
+	width:300px;
+	height:35px;
+	text-align:center;}
+
+.Uncharted p {
+	font-family:cursive;
+      font-size: 19px;
+      color:#ff6666;
+}
+
+
+@media (min-width:1500px) {
+	.Ezio {width:33.33%;  height:inherit; position: relative; }
+	.Ezio h5 {margin-top:2px;  margin-left:370px;  text-align:center;}
+	.Ezio p {margin-top:-37px; color:#ff6666;}
+	        /* Geralt now */
+
+	.Geralt {width:33.33%;  height:inherit;  margin-left: 34.5%;  margin-top:-185px;} 
+	.Geralt h5 {text-align:center; margin-top:-0px; margin-left:330px;} 
+	.Geralt p {margin-top:-37px;} 
+            /* Uncharted now */
+
+    .Uncharted {width:33.33%; height:inherit; margin-left: 68.66%; margin-top:-185px;} 
+    .Uncharted h5 {text-align:center; margin-left:330px; margin-top:-0px;}  
+    .Uncharted p { margin-top:-37px;}        
